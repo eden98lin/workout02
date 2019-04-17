@@ -135,7 +135,6 @@ server <- function(input, output) {
       
     }
     else{
-      # how to make a graph like in the instructions?
       ggplot(mod_gather, aes(x = year, y = return, col = mode)) +
         geom_line(size = 1) +
         geom_point(size = 2) +
