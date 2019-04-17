@@ -5,6 +5,6 @@ account: xxlin
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 873162
-bundleId: 2019553
+bundleId: 2019627
 url: https://xxlin.shinyapps.io/workout02/
-when: 1555535376.50397
+when: 1555537188.83149
