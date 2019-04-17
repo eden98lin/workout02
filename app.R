@@ -139,7 +139,7 @@ server <- function(input, output) {
       ggplot(mod_gather, aes(x = year, y = return, col = mode)) +
         geom_line(size = 1) +
         geom_point(size = 2) +
-        geom_area(aes(fill = mode, alpha = 0.5)) +
+        geom_area(aes(fill = mode), alpha = 0.5) +
         ggtitle('Three Modes of Investing') +
         theme(legend.position = 'right', plot.title = element_text(hjust = 0.5)) +
         xlab('Year') +
